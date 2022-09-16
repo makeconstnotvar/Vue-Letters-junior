@@ -1,9 +1,9 @@
 <template>
   <main>
     <h1>Буквы</h1>
-    <div>{{letters}}</div>
+    <div>{{ letters }}</div>
     <h2>Пары букв</h2>
-    <div>Тут выводим пары букв</div> 
+    <div>Тут выводим пары букв</div>
   </main>
 </template>
 <script>
@@ -17,7 +17,7 @@ export default {
   name: 'App',
   data() {
     return {
-      letters:'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+      letters: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     }
   },
   created() {
